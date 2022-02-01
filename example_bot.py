@@ -39,18 +39,3 @@ async def on_message(message):
                  await message.channel.send("Fucking Slave, Число которое выпало:{rn}",)
                  await message.send(rn)
 
-
-
-
-
-# @bot.event
-# async def on_ready(args):
-#     print(f"{bot.user}is online")
-
-# for filename in os.listdir("./cogs"):
-#     if filename.endswith(".py"):
-#         bot.load_extension(f"cogs.{filename[:-3]}")
-
-
-        
-
